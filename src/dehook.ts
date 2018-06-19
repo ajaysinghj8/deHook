@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 
-type IHandler = (...args: Array<any>) => Promise<any>;
+export type IHandler = (...args: Array<any>) => Promise<any>;
 
 interface IHook {
     on(hookName: String, handler: IHandler | Array<IHandler>): IHook;
@@ -58,7 +58,7 @@ class KlassHook {
 
 
 
-export function Hookable<T extends { new(...args: any[]): {} }>(Ctor: T) {
+export function Hookable<T extends { new(...args: any[]): {} }>(Ctor: T): T {
     class Construct extends Ctor {
         constructor(...args: any[]) {
             super(...args);
@@ -73,7 +73,7 @@ export function Hookable<T extends { new(...args: any[]): {} }>(Ctor: T) {
 
 
 
-interface TriggerHookConfig {
+export interface TriggerHookConfig {
     isAsync?: Boolean;
     background?: Boolean;
     pre?: Boolean;
