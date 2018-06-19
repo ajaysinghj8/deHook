@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/CoderAjay/deHook/issues"
   },
-  "homepage": "https://github.com/CoderAjay/deHook#readme"
+  "homepage": "https://github.com/CoderAjay/deHook#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  }
 }
