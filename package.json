@@ -1,0 +1,34 @@
+{
+  "name": "dehook",
+  "version": "0.0.1",
+  "description": "Hook System  Typescript",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderAjay/deHook.git"
+  },
+  "keywords": [
+    "Hook",
+    "deHook",
+    "Hookable",
+    "hook",
+    "System",
+    "hook",
+    "api",
+    "decorator",
+    "hook",
+    "coderajay"
+  ],
+  "author": "Ajay Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderAjay/deHook/issues"
+  },
+  "homepage": "https://github.com/CoderAjay/deHook#readme"
+}
